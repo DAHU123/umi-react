@@ -1,0 +1,24 @@
+.wrap-mymap {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  :global {
+    .header {
+      width: 100%;
+      padding: 10px;
+      flex-shrink: 0;
+      flex-grow: 0;
+      //flex: 0 0 80px;
+      .ml-10 {
+        margin-left: 10px;
+      }
+      .mr-10 {
+        margin-right: 10px;
+      }
+    }
+  }
+}
